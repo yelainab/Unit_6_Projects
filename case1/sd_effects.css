@@ -18,12 +18,12 @@ html{
    background: url(sd_back1.png) 100% / cover fixed;
 }
 body{
-   background-image: url(sd_back2.png);
-   background: radial-gradient( closest-corner at 40% 70%,
-   white 15%, rgba(151,151,151,0.5) 50%), radial-gradient( closest-corner at 80%,40%,
-   white 15%, rgb(0,0,0) 30%), radial-gradient( closest-side at 10%,20%,
-   white 20%, rgba(0,0,0,0) 45%), radial-gradient( circle 50px at 90%,10%,
-   white 15%, rgba(151,151,151,0.5) 50%);
+   background: url(sd_back2.png), 
+      radial-gradient( closest-corner at 40% 70%,white 15%, rgba(151,151,151,0.5) 50%), 
+      radial-gradient( closest-corner at 80% 40%,white 15%, rgba(0,0,0,0) 30%), 
+      radial-gradient( closest-side at 10% 20%,white 20%, rgba(0,0,0,0) 45%),
+      radial-gradient( circle at 90% 10%,white 15%, rgba(0,0,0,0) 40%),
+      rgb(151,151,151);
 }
 
 /* Body Styles */
